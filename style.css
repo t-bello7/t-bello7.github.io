@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin : auto;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    /* background: crimson;  */
+    font-family: 'Ubuntu', 'ital';
+    transition: all 0.3s ease;
+}
+
+/* come back to fix sticky navbar bug and log bug */
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+
+.navbar .max-width{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color :#fff;
+    font-size : 35px;
+    font-weight: 600;
+}
+
+
+.navbar.sticky .logo a span{
+    color :#fff
+
+}
+.navbar .logo a span{
+    color : crimson;
+
+}
+ 
+.navbar .menu li{
+    list-style: none;
+    display : inline-block;
+
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size:18px;
+    font-weight: 500;
+    margin-left:25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: crimson;
+
+}
+
+.navbar .sticky .menu li a:hover{
+    color:#fff;
+}
+
+/* home section styling */
+.home{
+    display:flex;
+    background: url("img/banner.jpg") no-repeat center;
+    background-size:cover;
+    color: #fff;
+    min-height:500px;
+    font-family: 'Ubuntu';
+    height: 100vh;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size:27px;
+
+}
+.home .home-content .text-2{
+    font-size:75px;
+    font-weight: 600;
+    margin-left: -5px;
+    
+}
+.home .home-content .text-3{
+    font-size:27px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color:crimson;
+
+}
