@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/79a71d8460.js"></script></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Personal Portfolio Website</title>
    
@@ -14,14 +16,16 @@
         <div class="max-width">
             <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>               
-                <li><a href="#">Services</a></li>               
-                <li><a href="#">Skills</a></li>               
-                <li><a href="#">Teams</a></li>               
-                <li><a href="#">Contact</a></li>               
-
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>               
+                <li><a href="#edu">Education</a></li>               
+                <li><a href="#skills">Skills</a></li>               
+                <li><a href="#projects">Projects</a></li>               
+                <li><a href="#contact">Contact Me</a></li>               
             </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"> </i>
+            </div>
         </div>
     </nav>
 
@@ -32,11 +36,230 @@
                 <div class="text-1">Hi, my name is </div>
                 <div class="text-2">Bello Oluwatomisin Oreoluwa </div>
                 <div class="text-3">And I'm a <span> Devloper</span> and <span>Engineer</span> in the making.</div>
+                <a href="#">Let's Build amazing Projects</a>
             </div>
         </div>
     </section>
-    <p>Lorem ipsum dolor sit ame<br>t consectetur adipisicing elit. Culpa adipisci totam<br> est distinctio illum natus officia sit fuga tempora nihil enim atque mol<br>estiae similique sed, tempore,<br> reiciendis delectus commodi praesentium.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam <br>numquam aliquid praesentium asperiores<br> perspiciatis culpa et maiores dolorem. Porro <br> architecto mollitia exercitationem totam <br>quas dicta ea voluptate aut cum? Temporibus?</p>
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="img/tomi.jpg" width="300px" height="300px" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Tomi and I'm an <span>Engineer</span></div>
+                    <p>Lorem ipsum <br>dolor sit amet consectetur adipisicing elit. Est, quos minus, amet <br> provident molestias expedita odit repellendus sed nam quidem veritatis.<br> Ipsam, esse sed. Fugiat consectetur a obcaecati ea numquam.</p>
+                    <a href="">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education-->
+    <section class="edu" id="edu">
+        <div class="max-width">
+            <h2 class="title">Basic Qualification and Education</h2>
+            <div class="edu-content">
+                <div class="card"> 
+                    <div class="box">
+                        <img src="img/unilag_logo.png" alt="">
+                        <div class="text">University of Lagos</div>
+                        <p>Bachelors in Eletrical and Electronics Engineering</p>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="box">
+                        <img src="img/yct_logo.png" alt="">
+                        <div class="text">Yaba College of Education</div>
+                        <p>Ordinary Diploma in Industrial and Maintenance Engineering</p>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="box">
+                        <img src="img/goo_logo.png" alt="">
+                        <div class="text">Google</div>
+                        <p>Fundamentals of Digital Marketing</p>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="box">
+                        <img src="img/fre_logo.png" alt="">
+                        <div class="text">FreecodeCamp</div>
+                        <p>Python</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--skills section-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content"> 
+               <div class="column left">
+                   <div class="text">My creative skills & experiences.</div>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum quis, vitae alias quos sapiente maiores, ex sequi sit voluptate reiciendis magnam deleniti adipisci autem tempora tempore consequuntur? Qui, totam.</p>
+                    <a href="#">Read more</a>
+                </div>
+               <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Javascrpit</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line javascript"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Machine Learning</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line ml"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>IoT</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="line iot"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Django</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line django"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Mongo Db Sql</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="line mdsql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Node js</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="line nodejs"></div>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel">
+                <div class="card"  >
+                    <div class="box">
+                        <img src="img/profile-1.jpeg" alt="">
+                        <div class="text">Alaje</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vitae nulla deleniti nam sit, quae magni, magnam temporibus saepe quis impedit! Quidem quasi accusantium quod, minus harum consectetur rem maiores?</p>
+                    </div>
+                </div>
+                <div class="card"  >
+                    <div class="box">
+                        <img src="img/profile-3.jpeg" alt="">
+                        <div class="text">Alaje</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vitae nulla deleniti nam sit, quae magni, magnam temporibus saepe quis impedit! Quidem quasi accusantium quod, minus harum consectetur rem maiores?</p>
+                    </div>
+                </div>
+                <div class="card"  >
+                    <div class="box">
+                        <img src="img/profile-4.jpeg" alt="">
+                        <div class="text">Alaje</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vitae nulla deleniti nam sit, quae magni, magnam temporibus saepe quis impedit! Quidem quasi accusantium quod, minus harum consectetur rem maiores?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Me-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam delectus, et modi consectetur ea consequatur hic aut necessitatibus nisi incidunt fuga doloremque placeat aspernatur? Ratione nobis harum deleniti reiciendis sapiente!</p>
+                    <div class="icons"> 
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Prakash Shahi</div>
+
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <i class="fas fa-map-marked"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Lagos,Nigeria.</div>
+                            </div>
+                        </div>
+                            
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">Bello4aus@gmail.com</div>
+                            </div>
+                        </div>
+                        </div>
+                     </div>
+                    <div class="column right">
+                        <div class="text">Message Me</div>
+                        <form action="#">
+                            <div class="field">
+                                <div class="field name">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="field email">
+                                    <input type="email" placeholder="Name">
+                                </div>
+                                <div class="field ">
+                                    <input type="text" placeholder="Subject">
+                                </div>
+                                <div class="field textarea">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Describe Project..." project=""> </textarea>
+                                </div>
+                                <div class="button">
+                                    <button type="submit">Send message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </div>  
+    </section>
 <script src="script.js">
 
 </script>
