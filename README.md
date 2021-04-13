@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @t-bello7
 - 👀 I’m interested in creating processes
 - 🌱 I’m currently learning python programming and it uses
-- 💞️ I’m looking to collaborate on data science and backend projects
+- 💞️ I’m looking to collaborate on data science and web projects
 - 📫 How to reach me 07037470581 
 
 <!---
