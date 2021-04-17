@@ -400,6 +400,81 @@ section .title::after{
 }
 
 /* project section styling */
+.projects .title::after{
+    content: "Done by Me";
+}
+
+.projects .carousel .card{
+    border-radius :6px;
+    padding: 25px 35px;
+    text-align:center;
+    transition: all 0.3s ease;
+    
+}
+
+.projects .carousel .card:hover{
+    background: #141;
+}
+
+.proects .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+
+.projects .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    text-align: center;
+}
+
+
+.projects .carousel .card img{
+    display: block;
+    margin-left: auto ;
+    margin-right:auto;
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius:50%;
+    border: 5px solid  #141 ;
+}
+
+.projects .carousel .card:hover img{
+    background-color: #fff;
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    color: black;
+    outline : none!important;
+    border-radius: 50%;
+    border: 2px solid #141!important;
+}
+
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background : #141!important;
+
+}
+
 
 /* contact section styling */
 .contact .title::after{
