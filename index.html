@@ -239,19 +239,19 @@
                      </div>
                     <div class="column right">
                         <div class="text">Message Me</div>
-                        <form action="#">
+                        <form id="contact-form" action="send" method="POST" enctype="multipart/form-data">
                             <div class="field">
                                 <div class="field name">
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" name="name" placeholder="Name">
                                 </div>
                                 <div class="field email">
-                                    <input type="email" placeholder="Name">
+                                    <input type="email" name="email" placeholder="Email">
                                 </div>
-                                <div class="field ">
-                                    <input type="text" placeholder="Subject">
+                                <div class="field Subject">
+                                    <input type="text" name="Subject" placeholder="Subject">
                                 </div>
                                 <div class="field textarea">
-                                    <textarea name="" id="" cols="30" rows="10" placeholder="Describe Project..." project=""> </textarea>
+                                   <textarea name="textarea" cols="30" rows="10" placeholder="Describe Project..." project=""> </textarea>
                                 </div>
                                 <div class="button">
                                     <button type="submit">Send message</button>
