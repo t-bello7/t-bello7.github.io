@@ -38,16 +38,16 @@ $(document).ready(function(){
  });
 });
 
-// get the form by its id
-const form = document.getElementById("contact-form");
+// // get the form by its id
+// const form = document.getElementById("contact-form");
 
 
-const formEvent = form.addEventListener("submit", (event)=>{
-    event.preventDefault();
+// const formEvent = form.addEventListener("submit", (event)=>{
+//     event.preventDefault();
 
-    let mail = new FormData(form);
+//     let mail = new FormData(form);
 
-    sendMail(mail);
-})
+//     sendMail(mail);
+// })
 
 
